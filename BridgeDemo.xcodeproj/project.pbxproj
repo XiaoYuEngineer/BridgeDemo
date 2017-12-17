@@ -12,6 +12,12 @@
 		515776601FE671CC003AA1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5157765E1FE671CC003AA1BB /* Main.storyboard */; };
 		515776621FE671CC003AA1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515776611FE671CC003AA1BB /* Assets.xcassets */; };
 		515776651FE671CC003AA1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515776631FE671CC003AA1BB /* LaunchScreen.storyboard */; };
+		5157766D1FE67271003AA1BB /* AbstractInsect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157766C1FE67271003AA1BB /* AbstractInsect.swift */; };
+		5157766F1FE67284003AA1BB /* AbstractFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5157766E1FE67284003AA1BB /* AbstractFlower.swift */; };
+		515776711FE674DC003AA1BB /* Butterfly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515776701FE674DC003AA1BB /* Butterfly.swift */; };
+		515776731FE674EE003AA1BB /* Mudanhua.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515776721FE674EE003AA1BB /* Mudanhua.swift */; };
+		515776751FE67500003AA1BB /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515776741FE67500003AA1BB /* Bee.swift */; };
+		515776771FE6751F003AA1BB /* QianniuHua.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515776761FE6751F003AA1BB /* QianniuHua.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		515776611FE671CC003AA1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515776641FE671CC003AA1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		515776661FE671CC003AA1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5157766C1FE67271003AA1BB /* AbstractInsect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractInsect.swift; sourceTree = "<group>"; };
+		5157766E1FE67284003AA1BB /* AbstractFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFlower.swift; sourceTree = "<group>"; };
+		515776701FE674DC003AA1BB /* Butterfly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Butterfly.swift; sourceTree = "<group>"; };
+		515776721FE674EE003AA1BB /* Mudanhua.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mudanhua.swift; sourceTree = "<group>"; };
+		515776741FE67500003AA1BB /* Bee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
+		515776761FE6751F003AA1BB /* QianniuHua.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QianniuHua.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				515776611FE671CC003AA1BB /* Assets.xcassets */,
 				515776631FE671CC003AA1BB /* LaunchScreen.storyboard */,
 				515776661FE671CC003AA1BB /* Info.plist */,
+				5157766C1FE67271003AA1BB /* AbstractInsect.swift */,
+				5157766E1FE67284003AA1BB /* AbstractFlower.swift */,
+				515776701FE674DC003AA1BB /* Butterfly.swift */,
+				515776741FE67500003AA1BB /* Bee.swift */,
+				515776721FE674EE003AA1BB /* Mudanhua.swift */,
+				515776761FE6751F003AA1BB /* QianniuHua.swift */,
 			);
 			path = BridgeDemo;
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515776731FE674EE003AA1BB /* Mudanhua.swift in Sources */,
+				515776751FE67500003AA1BB /* Bee.swift in Sources */,
+				5157766D1FE67271003AA1BB /* AbstractInsect.swift in Sources */,
 				5157765D1FE671CC003AA1BB /* ViewController.swift in Sources */,
+				515776711FE674DC003AA1BB /* Butterfly.swift in Sources */,
+				5157766F1FE67284003AA1BB /* AbstractFlower.swift in Sources */,
+				515776771FE6751F003AA1BB /* QianniuHua.swift in Sources */,
 				5157765B1FE671CC003AA1BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
